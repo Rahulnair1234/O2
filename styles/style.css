@@ -27,63 +27,8 @@ li {
   list-style: none;
 }
 
-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.about-container {
-  margin-top: -5px;
-  background: #feac5e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  padding-bottom: 10px;
-  /* height: 100vh; */
-}
-
-.about-title-container {
-  font-family: "Noto Sans Limbu", sans-serif;
-  background-color: white;
-  width: 305px;
-  text-align: center;
-  font-size: 24px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding: 10px 20px;
-  margin-left: 70px;
-}
-
-.about-info-container {
-  display: flex;
-  color: white;
-  flex-wrap: wrap;
-  background-color: black;
-  font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 20px;
-  padding: 33px;
-  border-radius: 25px;
-}
-
-@media (max-width: 850px) {
-  .about-title-container {
-    margin: auto;
-    font-size: 20px;
-    width: 290px;
-  }
-}
-
-/* Rahul */
 .team-container-block {
   background-color: black;
-  /* background: #feac5e;
-  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e); */
   font-size: 2rem;
   padding: 10px;
   position: relative;
@@ -282,7 +227,7 @@ video {
   width: 275px;
 }
 
-@media (max-width: 850px){
+@media (max-width: 950px){
   .footer{
     flex-direction: column;
     padding-top: 12px ;

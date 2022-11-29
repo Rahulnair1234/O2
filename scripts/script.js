@@ -19,7 +19,7 @@ hamburger.addEventListener("click", () => {
     }
   }
   
-  var width = window.matchMedia("(max-width: 850px)")
+  var width = window.matchMedia("(max-width: 950px)")
   let forMobile = maxWidthFunction(width) 
   width.addListener(maxWidthFunction)
   
