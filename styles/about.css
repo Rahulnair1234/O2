@@ -5,7 +5,7 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.about{
+.about-college{
     width: 100%;
     height: 100vh;
     background-color: #161922;
@@ -53,15 +53,67 @@ html, body{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 950px){
     .text h1{
         font-size: 50px;
     }
     #bhavans-image{
         margin-top: 15px;
     }
-    .about{
+    .about-college{
         width: 100%;
+        height: 100%;
+    }
+}
+
+.about-o2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.fest-container{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#fest-logo{
+    height: auto;
+    width: 450px;
+    max-width: 100%;
+}
+.fest-text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.fest-text h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fest-text p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+@media (max-width: 950px){
+    .about-o2{
         height: 100%;
     }
 }
