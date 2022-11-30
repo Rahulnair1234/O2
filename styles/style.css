@@ -8,21 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  display: none;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  text-align: center;
-  font-size: 22px;
-}
-
 li {
   list-style: none;
 }
