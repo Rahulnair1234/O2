@@ -131,10 +131,8 @@ li {
 
 
 .sponsers-section {
-  background: #feac5e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  background: linear-gradient(to right, #4bc0c8, #c779d0, #feac5e);
-  height: 400px;
+  background-color: rgb(255, 247, 247);
+  height: 100%;
   width: 100vw;
   
 }
