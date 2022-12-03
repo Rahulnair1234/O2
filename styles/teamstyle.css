@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #161922;
+}
+.team-container-block  {
+    background-color: #1b1d23;
+    font-size: 2rem;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    margin:100px 0px;
+  }
+  .team-container-block2  {
+    background-color: #1b1d23;
+    font-size: 2rem;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    margin:70px 0px ;
+   
+  }
+  .team-container-block3  {
+    background-color: #1b1d23;
+    font-size: 2rem;
+    padding: 10px;
+    position: relative;
+    display: grid;
+    margin:70px 0px;
+   
+  }
+  .mem-heading {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    margin-right: -3px;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #ffcc74;
+    position: relative;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #1b1d23
+  }
+  .member {
+    height: 550px;
+    width: 450px;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px;
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+    
+  }
+  .team2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .member2 {
+    height: 500px;
+    width: 350px;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25px;
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+  }
+  .team3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .member3 {
+    height: 400px;
+    width: 300px;
+    background-color: #ebeef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 2px;
+    box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+  }
+  .card-img {
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+    clip-path: polygon(0px 1%, 100% 0%, 100.44% 46.29%, 0% 74.58%);
+  }
+  .card-img2 {
+    width: 100%;
+    height: 41rem;
+    object-fit: cover;
+    clip-path: polygon(0px 0%, 103% 0%, 101.57% 29.73%, -0.29% 49.59%);
+  }
+  .card-img3 {
+    width: 100%;
+    height: 41rem;
+    object-fit: cover;
+    clip-path: polygon(0px 0%, 103% 0%, 101.57% 29.73%, -0.29% 49.59%);
+  }
+  .profile-img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -17.5rem;
+    z-index: 999;
+    border: 1rem solid #ffcc74;;
+  }
+  .profile-img2 {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -31rem;
+    z-index: 999;
+    border: 1rem solid #ffcc74;;
+  }
+  .profile-img3 {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -31rem;
+    z-index: 999;
+    border: 1rem solid #ffcc74;;
+  }
+  .member .name {
+    font-size: 2.5rem;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  .member .position {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    color: rgb(12, 12, 12);
+  }
+  .member2 .name {
+    font-size: 2rem;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .member2 .position {
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: rgb(12, 12, 12);
+  }
+  .member3 .name {
+    font-size: 2rem;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .member3 .position {
+    font-size: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: rgb(12, 12, 12);
+  }
+
+  @media (max-width: 950px){
+    .team-container-block,.team-container-block2,.team-container-block3{
+        margin: 0px;
+        margin-top: 70px;
+    }
+    .member,.member2{
+       
+        width: 300px;
+    }
+    
+}
+@media screen and (min-width: 700px){
+    .member:hover,.member2:hover,.member3:hover {
+        transform: scale(1.05);
+      }
+}
