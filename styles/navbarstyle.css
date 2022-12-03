@@ -6,7 +6,7 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color:#12122b;
 }
 
 li {
@@ -20,7 +20,7 @@ li {
 }
 
 .navbar {
-    background-color: #2C3236;
+    background-color:#a7c9df;
     position: fixed;
     top: 0;
     width: 100%;
@@ -92,10 +92,11 @@ nav.hide {
         top: 83px;
         gap: 0;
         flex-direction: column;
-        background-color: #262626;
+        background-color: #a7c9df;
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        border-top: 1px solid black;
     }
 
     .nav-item {
