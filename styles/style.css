@@ -47,7 +47,7 @@ li {
   justify-content: space-evenly;
 }
 .member {
-  height: 643px;
+  height: 500px;
   width: 300px;
   background-color: #ebeef8;
   display: flex;
@@ -190,6 +190,7 @@ li {
 
 #mail-button{
   text-decoration: underline;
+  color: white;
 }
 
 .footer-logo{
@@ -207,7 +208,7 @@ li {
 }
 
 .footer-text-container div{
-  width: 275px;
+  width: 300px;
 }
 
 @media (max-width: 950px){
