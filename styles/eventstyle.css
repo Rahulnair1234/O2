@@ -47,6 +47,7 @@ body{
 }
 .image-container img {
     width: 100%;
+    height: 350px;
 }
 
 .body-container {
@@ -60,10 +61,7 @@ body{
     opacity: 0;
     transition: height linear 0.4s, opacity linear 0.2s;
 }
-.event-container:hover .overlay {
-    opacity: 1;
-    height: 135px;
-}
+
 .event-info {
     background-color: #fff;
     display: flex;
@@ -125,11 +123,11 @@ body{
     text-align: center;
 }
 .action {
-    color: #fff;
-    border: 3px solid #fff;
+    color: #17537a;
+    border: 3px solid #17537a;
     background-color: transparent;
     position: absolute;
-    top: -100px;
+    bottom: 15px;
     left:50%;
     transform: translate(-50%);
     width: 60%;
@@ -140,11 +138,9 @@ body{
     text-decoration:underline double;
     font-weight: bolder;
     letter-spacing: 1.5px;
-    transition: background-color 0.4s ,top 0.4s;
+    
 }
-.event-container:hover .action{
-    top: 10%;
-}
+
 .action:hover{
     background-color: rgba(255,255,255,0.2);
 }
