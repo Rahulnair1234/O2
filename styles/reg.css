@@ -200,3 +200,7 @@ a {
 .tag:hover{
   cursor: pointer;
 }
+
+.card{
+  background-image: linear-gradient( #8360c3, #2ebf91);
+}
