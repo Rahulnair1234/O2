@@ -12,7 +12,7 @@ html, body{
     /* height: calc(100vh - 90px); */
     height: 100vh;
     margin-top: 90px;
-    background-color: #161922;
+    background-color: #ffa50d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,19 +41,20 @@ html, body{
     padding: 0 10px;
 }
 .text h1{
-    color: #ffcc74;
+    color: white;
     font-size: 70px;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 .text p {
-    color: #c0c4d6;
+    color: black;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
     margin-bottom: 45px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Tillana', cursive;
+    font-weight: 900;
 }
 
 
