@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 html, body{
@@ -105,7 +107,7 @@ html, body{
     font-size: 70px;
     margin-bottom: 20px;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 
 .fest-text p{
@@ -113,8 +115,7 @@ html, body{
     line-height: 28px;
     letter-spacing: 1px;
     margin-bottom: 45px;
-    font-family: 'Nunito', sans-serif;
-
+    font-family: 'Tillana', cursive;
 }
 
 
