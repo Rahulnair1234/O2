@@ -83,7 +83,7 @@ const nav = document.querySelector('nav');
             {
               breakpoint: 1750,
               settings:{
-                  slidesToShow: 4
+                  slidesToShow: 5
               }
           },
             {
