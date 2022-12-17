@@ -81,18 +81,24 @@ const nav = document.querySelector('nav');
           pauseOnHover: false,
           responsive: [
             {
+              breakpoint: 1750,
+              settings:{
+                  slidesToShow: 4
+              }
+          },
+            {
               breakpoint: 1500,
               settings:{
                   slidesToShow: 4
               }
           },{
-              breakpoint: 980,
+              breakpoint: 1300,
               settings:{
                   slidesToShow: 3
               }
           },
           {
-            breakpoint: 800,
+            breakpoint: 1000,
             settings:{
                 slidesToShow: 2
             }
