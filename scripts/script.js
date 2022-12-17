@@ -70,4 +70,40 @@ const nav = document.querySelector('nav');
 
 			prevScrollpos = currentScrollPos;
 		})
-    
+    $(document).ready(function(){
+      $('.partners-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 1500,
+              settings:{
+                  slidesToShow: 4
+              }
+          },{
+              breakpoint: 980,
+              settings:{
+                  slidesToShow: 3
+              }
+          },
+          {
+            breakpoint: 800,
+            settings:{
+                slidesToShow: 2
+            }
+        }, {
+              breakpoint: 500,
+              settings:{
+                  slidesToShow: 1
+                  
+              }
+          }
+      ]
+  
+      });
+  });
