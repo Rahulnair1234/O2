@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-
+body{
+  background-image: linear-gradient(to right, #5758ce, #bc51c0);
+}
 table {
     border: 1px solid #ccc;
     border-collapse: collapse;
@@ -34,7 +36,7 @@ table {
   }
   table caption{
     font-family: 'Montserrat', sans-serif;
-    color: #f4b445;
+    color: #ffa200;
     font-size: 50px;
     font-weight: 900;
     margin: 25px 0; 
@@ -42,14 +44,16 @@ table {
   table th {
     font-size: 25px;
     letter-spacing: .1em;
-    background-color: #2C3E50;
+    background-color: #362f4b;
     color: white;
     text-transform: uppercase;
   }
 
   table td{
     font-size: 18px;
-    background-color: #E7DB23 ;
+    font-weight: 700;
+    /* border: 1px solid black; */
+    /* background-color: #E7DB23 ; */
   }
   
   @media screen and (max-width: 600px) {
